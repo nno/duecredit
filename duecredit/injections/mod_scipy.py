@@ -27,7 +27,7 @@ def inject(injector):
       note = {[Online; accessed 2015-07-13]}
     }"""),
                  description="Scientific tools library",
-                 tags=['implementation'])
+                 tags=['implementation', 'cite-on-use'])
 
     # scipy.cluster.hierarchy general references
     # TODO: we should allow to pass a list of entries
@@ -44,7 +44,7 @@ def inject(injector):
     }"""),
                  min_version='0.4.3',
                  description="Hierarchical clustering",
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @article{sneath1962numerical,
@@ -59,7 +59,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @article{batagelj1995comparing,
@@ -74,7 +74,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @book{sokal1958statistical,
@@ -86,7 +86,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @article{edelbrock1979mixture,
@@ -102,7 +102,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @book{jain1988algorithms,
@@ -113,7 +113,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     injector.add('scipy.cluster.hierarchy', None, BibTeX("""
     @article{fisher1936use,
@@ -128,7 +128,7 @@ def inject(injector):
     }"""),
                  description="Hierarchical clustering",
                  min_version='0.4.3',
-                 tags=['edu'])
+                 tags=['edu', 'cite-on-use'])
 
     # Here options for linkage
     injector.add('scipy.cluster.hierarchy', 'linkage', BibTeX("""

@@ -31,4 +31,6 @@ def inject(injector):
         year={2011},
         publisher={JMLR. org}
         }
-    """), description="Machine Learning library")
+    """),
+                 description="Machine Learning library",
+                 tags=['implementation', 'cite-on-use'])

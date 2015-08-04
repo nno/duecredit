@@ -53,10 +53,9 @@ class Citation(object):
              the method
           - "edu" references to tutorials, textbooks and other materials useful to learn
             more
-          - "cite-on-use" for a module citation would make that module citeable even
-            without internal duecredited functionality invoked.  Should be used only for
-            core packages whenever it is reasonable to assume that its import constitute
-            its use (e.g. numpy)
+          - "cite-on-use" for a module citation would defer citation of the module
+            until some of its functionality gets used.  Otherwise, a mere import of
+            that module would (by default) add a citation for it
           - "donate" should be commonly used with Url entries to point to the websites
             describing how to contribute some funds to the referenced project
         """
